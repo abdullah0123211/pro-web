@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+  
+      
+      
+    <title>Document</title>
+</head>
+<body>
+
+   <div class="main">
+
+      <input type="checkbox" id="chk" aria-hidden="true">
+      <div class="stud">
+
+         <form action="stud.php">
+            <label for="chk" aria-hidden="true">Student Account</label>
+            <input type="text" name="txt" placeholder="User name" required="">
+            <input type="email" name="email" placeholder="Email" required="">
+            <input type="password" name="pass" placeholder="Password" required="">
+         </form>
+         <button name="submit">sign in</button>
+      </div>
+      <div class="employees">
+         <form action="empl.php">
+            <label for="chk" aria-hidden="true">employees Account</label>
+            <input type="text" name="txt" placeholder="User name" required="">
+            <input type="email" name="email" placeholder="Email" required="">
+            <input type="password" name="pass" placeholder="Password" required="">
+         </form>
+         <button name="submit">sign in</button>
+      </div>
+   </div>
+<script src="../js/script.js"></script>
+</body>
+</html>
