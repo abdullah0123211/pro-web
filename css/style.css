@@ -43,7 +43,8 @@ input{
   display: flex;
   margin: 20px auto;
   padding: 10px;
-  border: 3px solid #00000000;
+  border: 3px solid ;
+  opacity: 0;
   outline: none;
   border-radius: 5px;
 }
