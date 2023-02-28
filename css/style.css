@@ -149,4 +149,19 @@ button{
   #chk:checked ~ .stud label{
     transform: scale(.8);
   }
+  @media screen and (max-height: 810px){
+    #chk:checked ~ .stud {
+      height: 100%;
+      margin-top: 0;
+    }
+  }
+  @media screen and (max-height: 770px){
+    #chk:checked ~ .stud {
+      height: 100%;
+      margin-top: -2em;
+    }
+    #chk:checked ~ .employees{
+      transform: translateY(-765px);
+    }
+  }
 }
